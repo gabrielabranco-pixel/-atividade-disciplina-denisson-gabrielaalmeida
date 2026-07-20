@@ -1,3 +1,5 @@
+
+/*
 function calcularDesconto (precoTexto, percentual){
     let num = parseFloat(precoTexto);
     let desconto = (percentual / 100) * num;
@@ -6,3 +8,27 @@ function calcularDesconto (precoTexto, percentual){
 }
 
 console.log(calcularDesconto(100,10));
+
+
+function renderizarLista(Lista){
+    let ul = document.querySelector('ul')
+    ul.innerHTML = '';
+
+}
+*/
+
+#callback 
+function fazerPizza(sabor, callback){
+    console.log("Fazendo a pizza de ${sabor}...");
+    setTimeout(() => {
+      callback
+    }, 1500);
+}
+
+//Função que será chamada quando a pizza estiver pronta 
+function pizzaPronta(){
+   console.log("A pizza está pronta! Aproveite!"); 
+}
+
+//Chamando a função fazerPizza e passando o callback pizzaPronta
+fazerPizza("Calabresa", pizzaPronta);
