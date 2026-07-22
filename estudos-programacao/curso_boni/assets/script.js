@@ -32,3 +32,9 @@ function pizzaPronta(){
 
 //Chamando a função fazerPizza e passando o callback pizzaPronta
 fazerPizza("Calabresa", pizzaPronta);
+
+// EXEMPLO DE CALLBACK COM FUNÇÃO ANÔNIMA 
+fazerPizza("Mussarela", function(){
+    console.log("A pizza de ${sabor} esta pronta! Aproveite!");
+//funciona para ter um tipo de retorno personalizado, para a uma função especifica 
+});
