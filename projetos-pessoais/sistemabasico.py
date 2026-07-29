@@ -19,7 +19,8 @@ janela.mainloop()
 
 #ESSE CÓDIGO FOI CRIADO PARA TESTAR A INTERFACE ANTIGA DO TKINTER 
 
--------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------
+
 #CLASSE ORIENTADA A OBJETOS EM PYTHON OOP
 
 #Uma classe é um modelo que serve para criar objetos para não ter de criar códigos do zero 

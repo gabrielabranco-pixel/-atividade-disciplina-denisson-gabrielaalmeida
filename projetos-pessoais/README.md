@@ -88,8 +88,19 @@ Este projeto foi desenvolvido com foco em aprendizagem. Durante sua construção
 * Atualização dinâmica da interface;
 * Organização do código para facilitar manutenção.
 
+## Créditos
+
+Este projeto foi desenvolvido como parte dos meus estudos em Python e CustomTkinter, utilizando como principal referência a excelente aula do Lira, do canal Hashtag Programação.
+
+A implementação foi reproduzida e comentada para fins educacionais, permitindo compreender a construção de interfaces gráficas modernas, a organização do código utilizando Programação Orientada a Objetos e o funcionamento dos principais componentes da biblioteca.
+
+Vídeo utilizado como base para os estudos:
+https://youtu.be/yHdZvQhSRiA?si=XH7iPDBtqqxuZ411
+
 ## Autora
 
 **Gabriela de Almeida Branco**
 
 Estudante de Análise e Desenvolvimento de Sistemas, desenvolvendo projetos para aprimorar conhecimentos em Python, Interfaces Gráficas, Git e GitHub.
+
+
