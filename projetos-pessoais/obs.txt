@@ -1,0 +1,152 @@
+posso escrever anotações aqui e o github ignora - las 
+
+CALLBACK = te ligo de volta (em inglês). Na programação é 
+uma função que você envia para algum lugar para ser execultada 
+em determinado momento para ser decidido para outra parte do seu
+código
+-----------------------------------------------------------------------------------------------------------
+O que é um Callback?
+
+Um callback é uma função que é passada como argumento para outra função, para que ela seja executada em um momento específico.
+
+Em outras palavras:
+
+Você entrega uma função para outra função e diz: "quando terminar sua tarefa, chame esta função".
+
+É exatamente por isso que ela recebe o nome callback:
+
+call = chamar
+back = de volta
+
+Ou seja:
+
+"Me chame de volta quando terminar."
+
+Exemplo do mundo real
+
+Imagine que você pede uma pizza.
+
+Você diz ao atendente:
+
+"Quando a pizza chegar, me ligue."
+
+Você não fica parado esperando.
+
+A pizzaria faz todo o trabalho e, quando termina, ela executa o "callback":
+
+📞 "Sua pizza chegou!"
+
+Nesse exemplo:
+
+A pizzaria = função principal
+A ligação = callback
+Exemplo simples em Python
+
+Sem callback:
+
+def saudacao():
+    print("Olá!")
+
+saudacao()
+
+Saída:
+
+Olá!
+--------------------------------------------------------------------------------------------------
+Agora usando callback:
+
+def executar(funcao):
+    print("Executando...")
+    funcao()
+
+def saudacao():
+    print("Olá!")
+
+executar(saudacao)
+
+Saída:
+
+Executando...
+Olá!
+-----------------------------------------------------------------------------------
+def soma(a, b, callback):
+    resultado = a + b
+    callback(resultado)
+
+def mostrar(valor):
+    print("Resultado:", valor)
+
+soma(5, 3, mostrar)
+
+Saída
+
+Resultado: 8
+-------------------------------------------------------------
+Um callback é:
+
+Uma função passada como argumento para outra função.
+Executada posteriormente, quando a função principal decidir.
+Muito usada em eventos, interfaces gráficas, temporizadores, requisições de rede e programação assíncrona.
+Em Python, você passa a referência da função sem parênteses (minha_funcao), e a executa depois com minha_funcao().
+-------------------------------------------------------------------------------------------
+
+##Melhorando os commits:
+feat: adiciona callbacks da interface
+
+fix: corrige validação do formulário
+
+docs: atualiza README
+
+refactor: reorganiza estrutura do projeto
+
+style: padroniza código Python
+
+--------------------------------------------------------------------------------------------------------
+##Plano para a proxima semana:
+
+1.Organizar o GitHub e separar os projetos.
+2.Melhorar o projeto em Tkinter.
+3.Criar um CRUD simples em Python.
+4.Desenvolver um CRUD em PHP com MySQL.
+5.Criar um projeto web usando HTML, CSS e JavaScript.
+6.Aprender os fundamentos de SQL.
+7.Publicar um projeto web (por exemplo, com GitHub Pages para front-end).
+
+Ao final, você terá um portfólio consistente para processos seletivos de estágio.
+-----------------------------------------------------------------------------------------------
+
+##Um plano para você crescer como desenvolvedora
+
+Este é o roteiro que proponho:
+
+Fase 1 – Fundamentos
+✔ Git e GitHub
+✔ Python
+✔ Lógica de programação
+✔ Tkinter
+
+Fase 2 – Desenvolvimento
+CRUD em Python
+Manipulação de arquivos
+SQLite
+Orientação a Objetos
+
+Fase 3 – Web
+HTML
+CSS
+JavaScript
+PHP
+MySQL
+
+Fase 4 – Portfólio
+README profissionais
+GitHub organizado
+LinkedIn técnico
+Currículo para estágio
+
+Fase 5 – Mercado
+Preparação para entrevistas
+Desafios técnicos
+Simulados de processos seletivos
+------------------------------------------------------------------
+

@@ -1,1 +1,18 @@
-obs.txt
+##Aprendendo a atualizar o git da nuvem:
+
+1. git add .
+2. git commit -m "update sistema customtkinter"
+3. git status 
+4. git remote -v
+
+#---------------------------------------------------------------------------------------------
+
+#O 1 origin(fetch) define onde estou pegando os dados:
+origin  https://github.com/gabrielabranco-pixel/-atividade-disciplina-denisson-gabrielaalmeida (fetch)
+
+#o 2 origin(push) define onde estou enviando meus dados:
+origin  https://github.com/gabrielabranco-pixel/-atividade-disciplina-denisson-gabrielaalmeida (push)
+
+#--------------------------------------------------------------------------------------------
+
+5. git push origin 
