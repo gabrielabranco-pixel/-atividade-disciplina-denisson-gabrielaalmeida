@@ -45,7 +45,7 @@ from tinkinter import messagebox
 
 #PEGAR INFORMAÇÕES DO USUÁRIO:
 import tkinter as tk #Caso eu queira usar a biblioteca para criar uma janela personalizada usarei apenas essa função + o loop
-# Essa janela é uma box de mensagem que aparece na tela, com um título e uma mensagem 
+# Essa janela é uma bnpx @tech-leads-club/agent-skills install --skill tlc-spec-drivenx de mensagem que aparece na tela, com um título e uma mensagem 
 from tkinter import messagebox, simpledialog
 
 nome = simpledialog.askstring("Identificação", "Qual é o seu nome?")
