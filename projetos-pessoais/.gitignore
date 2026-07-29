@@ -5,7 +5,6 @@
 #descrição do que foi mudado
 3. git status 
 4. git remote -v
-
 #---------------------------------------------------------------------------------------------
 
 #O 1 origin(fetch) define onde estou pegando os dados:
