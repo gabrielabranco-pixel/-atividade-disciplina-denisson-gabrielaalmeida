@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4F4F4;
+    color: #333333;
+    margin: 20px;
+
+}
+
+header {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section {
+   background-color: white;
+   border: 1px solid #DDDDDD;
+   padding: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+#sobre{
+    text-align: center;
+}
+
+#sobre img {
+    width: 300px;
+
+
+}

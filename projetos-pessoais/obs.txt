@@ -150,3 +150,14 @@ Desafios técnicos
 Simulados de processos seletivos
 ------------------------------------------------------------------
 
+127.0.0.1 - esse é um indereço usado no xampp/php que colado 
+na aba do google ela direciona diretamente para o endereço do meu computador 
+
+atalhos:
+localhost ou https//localhost
+
+IP da rede:
+nomedousuario.local
+
+
+
